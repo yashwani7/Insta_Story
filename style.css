@@ -1,0 +1,239 @@
+*{  
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#833ab4,#fd1d1d,#fcb045);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    overflow: scroll;
+    
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.nav > h1{
+    font-family: 'Ms Madi', cursive;
+    font-size: 20px;
+    color: white;
+    padding-left: 0px;
+    position: absolute;
+    top: 1..4%;
+    left: 1%;    
+    overflow: hidden;
+   
+}
+.nav > .con{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    overflow: hidden;
+}
+.storiyan{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(82, 78, 78, 0.6);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+    /* border-bottom: 1px solid grey; */
+
+}
+.storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid rgb(245, 238, 238);
+    overflow: hidden;
+    margin: 0 5px;
+    display: inline-block;
+    
+   
+}
+.story > img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.full-scr{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: 99;
+    /* background-color: pink; */
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+.progress{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    background-color:rgb(79, 76, 76);
+}
+.growth{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(225, 229, 230);
+    border-radius: 10px;
+}
+.box{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    padding: 5px;
+    overflow: hidden;
+    
+}
+.content{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    
+    
+}
+.content > img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+
+}
+.content > h1{
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    font: 100 1vmax "Montserrat";
+}
+.content > .corner{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 90%;
+}
+.content2{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    position:absolute;
+    margin-top: 10px;
+
+}
+.content2 > .post{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+footer > .side{
+     position:absolute;
+     left: 88%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.overlay > img{
+    width: 40px;
+}
+.overlay > footer > h4{
+    position: absolute;
+    top: 79%;
+    left: 49%;
+    position: fixed;
+    color: rgb(131, 126, 126);
+}
+.overlay > footer > img{
+    width: 150px;
+    position:absolute;
+    top: 88%;
+    left:25%;
+}
+
+.cont{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    
+    
+}
+.cont > img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+
+}
+.cont > h1{
+    color: white;
+    position: absolute;
+    top: 140%;
+    left: 14%;
+    font: 100 1vmax "Montserrat";
+}
+.cont > .corner{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 90%;
+}
+.content3{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    position:absolute;
+    margin-top: 10px;
+
+}
+.content3 > .post{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+footer > .side{
+     position:absolute;
+     left: 88%;
+}
+
